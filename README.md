@@ -5,7 +5,7 @@
  In this project we work with a sample of KITTI dataset (50 frames) where we are going to reconstruct the 3D scene with the material provided by the dataset (cameras, Lidar).
 ## KITTI Dataset Blue Print
 
- ![](KITTI_sample_frames/kitti_dataset.png)
+ ![](Results/setup_top_view.png)
 
 ## KITTI Dataset's camera's view
 As we can see here the car is in a straight forward movement  
@@ -43,3 +43,4 @@ As we can see here the car is in a straight forward movement
 
 
 ![](Results/3D_scene.gif)
+![](Results/results.gif)
