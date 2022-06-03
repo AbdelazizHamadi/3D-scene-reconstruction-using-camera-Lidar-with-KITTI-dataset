@@ -10,9 +10,9 @@
 ## KITTI Dataset's camera's view
 As we can see here the car is in a straight forward movement  
 
-![](Results/POV_camera2.gif)
+![](Results/KITTI_POV_camera2.gif)
 
- ### Project pipeline
+ ### Project pipeline   
 <ol>
 <li> Load dataset with pykitti library </li>
 <li> Get all the position matrices for each frame </li>
