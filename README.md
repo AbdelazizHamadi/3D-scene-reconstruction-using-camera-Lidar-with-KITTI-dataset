@@ -42,5 +42,4 @@ As we can see here the car is in a straight forward movement
  ## Results
 
 
-![](Results/3D_scene.gif)
 ![](Results/results.gif)
