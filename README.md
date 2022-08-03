@@ -19,16 +19,15 @@ As we can see here the car is in a straight forward movement
 <li> Get Lidar poses for each frame </li>
 <li> Extract calibration matrix that transforms from IMU coordinates to Lidar coordinates </li>
 <li> Remove points that have depth close to the camera (<5) </li>
-<li> Extract projection matrix that transforms from 3D world coordinates to camera coordinates (second camera of KITTI)</li>
+<li> Extract projection matrix that transforms from 3D world coordinates to camera coordinates (camera 2 of KITTI)</li>
 <li> Normalizing the fourth element </li>
-<li> Extract second camera's calibration </li>
+<li> Extract camera 2's calibration </li>
 <li> Now after getting all the information needed we run a loop through frames:</li>
 <ol>
 <li> Get the captured new points in Lidar coordinates </li>
 <li> Calculate 2D points, Projected points in camera coordinates</li>
 <li> Normalizing by the third value </li>
 <li> Get image info (RGB values, aka images in the KITTI dataset) </li>
-<li> Create mask that filters the points by the dimension of the image, to remove the ones that falls outside the frame </li>
 <li> Create mask that filters the points by the dimension of the image, to remove the ones that falls outside the frame </li>
 **Note** : Our new 2D points coords that are projected to the camera are now the pixels' position </li>
 <li> get the RGB value of each point </li>
