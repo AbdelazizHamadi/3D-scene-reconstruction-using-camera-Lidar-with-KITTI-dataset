@@ -20,7 +20,7 @@ As we can see here the car is in a straight forward movement
 <li> Extract calibration matrix that transforms from IMU coordinates to Lidar coordinates </li>
 <li> Remove points that have depth close to the camera (<5) </li>
 <li> Extract projection matrix that transforms from 3D world coordinates to camera coordinates (camera 2 of KITTI)</li>
-<li> Normalizing the fourth element </li>
+<li> Normalizing by the fourth element </li>
 <li> Extract camera 2's calibration </li>
 <li> Now after getting all the information needed we run a loop through frames:</li>
 <ol>
